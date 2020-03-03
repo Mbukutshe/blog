@@ -1,0 +1,28 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "This application was build for learning purpose only!",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anormanwtc/Blogapp.git"
+  },
+  "author": "team of 5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anormanwtc/Blogapp/issues"
+  },
+  "homepage": "https://github.com/anormanwtc/Blogapp#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "msnodesqlv8": "^0.8.10",
+    "mssql": "^6.1.0"
+  }
+}
