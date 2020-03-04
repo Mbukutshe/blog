@@ -10,4 +10,8 @@ router.get('/posts', function(req, res, next) {
   res.render('posts', { title: 'Express' });
 });
 
+router.get('/single-posts', function(req, res, next) {
+  res.render('single-posts', { title: 'Express' });
+});
+
 module.exports = router;

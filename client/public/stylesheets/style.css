@@ -214,6 +214,20 @@ textarea:focus, input:focus
   box-sizing: border-box;
 }
 
+.post-image
+{
+  width: 400px;
+  height: 320px;
+  overflow: hidden;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+.post-content
+{
+  box-sizing: border-box;
+}
+
 .text-post
 {
   font-weight: 100;
