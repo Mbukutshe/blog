@@ -14,4 +14,8 @@ router.get('/single-posts', function(req, res, next) {
   res.render('single-posts', { title: 'Express' });
 });
 
+router.get('/user_posts', function(req, res, next) {
+  res.render('user_posts', { title: 'Express' });
+});
+
 module.exports = router;
