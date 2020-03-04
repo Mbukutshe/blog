@@ -9,9 +9,10 @@ article
   height: 100%;
   display: inline-block;
 }
+
 a 
 {
-  color: #00B7FF;
+  color: rgb(5, 58, 78);
 }
 
 .section
@@ -277,12 +278,12 @@ textarea:focus, input:focus
 {
     border: 1px solid #4CAF50;
     color: #4CAF50;
-    padding: 5px 10px;
+    padding: 7px 10px;
     border-radius: 6px;
     cursor: pointer;
     width: 50%;
     margin: 20px auto;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0.9;
 }
@@ -299,6 +300,12 @@ textarea:focus, input:focus
     font-size: 0.8em;
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0.9;
+}
+
+.label-color
+{
+  color: rgb(207, 12, 12);
+  font-size: 0.8em;
 }
 
 .btn-primary

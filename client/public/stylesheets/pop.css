@@ -47,11 +47,22 @@
 
 #register-section
 {
+    min-height: 60vh;
+    max-height: 80vh;
     display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-image:linear-gradient(#e9edf0, #f5eee9);
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    opacity: 0.8;
 }
 
 
-#have-account, #register:hover{
+#have-account, #register:hover
+{
     cursor: pointer;
 }
 
